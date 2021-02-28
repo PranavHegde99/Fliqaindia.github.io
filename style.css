@@ -1,0 +1,116 @@
+    body {}
+    
+    img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        object-position: center;
+        object-fit: cover;
+    }
+    
+    .voting {
+        position: absolute;
+        width: 150%;
+    }
+    
+    .da-thumbs {
+        list-style: none;
+        /* height: 860px; */
+        position: relative;
+        margin: 20px auto;
+        padding: 3;
+        margin-left: 100px;
+        /* color: #004eff; */
+    }
+    
+    .da-thumbs li {
+        float: left;
+        margin-top: 158px;
+        width: 400px;
+        margin-left: 15px;
+        background: darkblue;
+        padding: 2px;
+        position: relative;
+        height: 330px;
+        color: white;
+    }
+    
+    .da-thumbs1 {
+        list-style: none;
+        position: relative;
+        margin: 20px auto;
+        padding: 3;
+        margin-left: 280px;
+    }
+    
+    .da-thumbs1 li {
+        float: left;
+        margin-top: 158px;
+        width: 680px;
+        margin-left: 5px;
+        background: #D0D3D4;
+        padding: 2px;
+        position: relative;
+        height: 330px;
+    }
+    /* Nav Bar Functions */
+    
+    .nav {
+        width: 79.5%;
+        height: 56px;
+        opacity: 0.6;
+        margin-top: 100px;
+        margin-left: 115px;
+        position: fixed;
+        background-color: lightskyblue;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+    
+    .nav a {
+        width: 77px;
+        color: black;
+        display: block;
+        text-decoration: none;
+        font-size: 17px;
+        text-align: center;
+        /* padding: 04px; */
+        border-radius: 04px;
+        font-family: TimesNewRoman;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    li {
+        float: left;
+        margin-top: 02px;
+        /* margin-left: 0px; */
+        /* margin-right: 73px; */
+    }
+    
+    input {
+        width: 120px;
+        border: none;
+        background: none;
+        color: black;
+        margin: 0 10px;
+        pointer-events: none;
+    }
+    
+    button {
+        color: #fff;
+        background: none;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    button :active {
+        color: #004eff;
+        transform: scale(1.2);
+    }
